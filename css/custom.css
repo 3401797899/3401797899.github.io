@@ -2,9 +2,17 @@
     background: var(--light_bg_color)
 }
 
-#aside-content .card-widget:not(#card-toc) {
+@media screen and (max-width:600px) {
+    #aside-content .card-widget:not(#card-toc),#content-inner>div {
     background: var(--light_bg_color)
 }
+}
+@media screen and (min-width:600px) {
+    #aside-content .card-widget,#content-inner>div {
+    background: var(--light_bg_color)
+}
+}
+
 
 #web_bg {
   background: -webkit-linear-gradient(
@@ -87,4 +95,14 @@
 
 #footer #footer-wrap a {
     color: var(--font-color)
+}
+
+.fa-qq:before{
+    color: rgb(16, 164, 255);
+}
+.fa-envelope:before{
+    color: #FFD700;
+}
+.fa-github:before{
+    color:  #6495ED;
 }
