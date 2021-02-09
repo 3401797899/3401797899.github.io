@@ -3,6 +3,7 @@
 	top: -40px;
 	right: -20px;
 	z-index: 9999;
+	pointer-events: none;
 }
  
 .deng-box1 {
@@ -10,8 +11,9 @@
 	top: -30px;
 	right: 10px;
 	z-index: 9999;
+	pointer-events: none;
 }
- 
+
 .deng-box1 .deng {
 	position: relative;
 	width: 120px;
