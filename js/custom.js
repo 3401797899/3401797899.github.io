@@ -1,0 +1,1 @@
+console.log($("html").attr("data-theme"));
